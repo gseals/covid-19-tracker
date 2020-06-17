@@ -8,6 +8,10 @@ classnames
 
 # CoVID-19 Tracker
 
+## Details
+
+* Data pulled from this [api](https://covid19.mathdro.id/api)
+
 ## Demo Link
 
 * [Coming Soon]
@@ -24,6 +28,8 @@ classnames
 * [Classnames 2.2.6](https://github.com/JedWatson/classnames)
 * [Axios 0.19.2](https://www.npmjs.com/package/axios)
 * [ESLint 14.2.0](https://eslint.org/)
+* [Material-UI 4.10.2](https://material-ui.com/)
+* [Chart.js 2.9.3](https://www.chartjs.org/)
 
 ## Description
 
