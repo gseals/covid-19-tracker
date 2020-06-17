@@ -4,7 +4,7 @@ import dF from '../../api/index';
 
 import styles from './Chart.module.css';
 
-const Chart = () => {
+const Chart = ({ country, data: { confirmed, recovered, deaths } }) => {
   const [dailyData, setDailyData] = useState({});
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Chart = () => {
     };
 
     fetchAPI();
-  });
+  }, []);
 
   const lineChart = (
     dailyData.length
@@ -22,11 +22,13 @@ const Chart = () => {
     data={{
       labels: dailyData.map(({ date }) => date),
       datasets: [{
+        // eslint-disable-next-line no-shadow
         data: dailyData.map(({ confirmed }) => confirmed),
         label: 'Infected',
         borderColor: '#3333ff',
         fill: true,
       }, {
+        // eslint-disable-next-line no-shadow
         data: dailyData.map(({ deaths }) => deaths),
         label: 'Deaths',
         borderColor: 'red',
@@ -38,9 +40,33 @@ const Chart = () => {
       ) : null
   );
 
+  const barChart = (
+    confirmed
+      ? (
+      <Bar
+        data={{
+          labels: ['Infected', 'Recovered', 'Deaths'],
+          datasets: [{
+            label: 'People',
+            backgroundColor: [
+              'rgba(0, 0, 255, 0.5)',
+              'rgba(0, 255, 0, 0.5)',
+              'rgba(255, 0, 0, 0.5)',
+            ],
+            data: [confirmed.value, recovered.value, deaths.value],
+          }],
+        }}
+        options={{
+          legend: { display: false },
+          title: { display: true, text: `Current state in ${country}` },
+        }}
+      />
+      ) : null
+  );
+
   return (
     <div className={styles.container}>
-      {lineChart}
+      { country ? barChart : lineChart }
     </div>
   );
 };

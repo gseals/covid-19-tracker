@@ -5,6 +5,7 @@ react-chartjs-2
 react-countup
 eslint
 classnames
+hooks
 
 # CoVID-19 Tracker
 
