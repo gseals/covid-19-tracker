@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Card, CardContent, Typography, Grid,
 } from '@material-ui/core';
+import moment from 'moment';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 
@@ -31,7 +32,7 @@ const Cards = ({
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
+            <Typography color="textSecondary">As of: {moment(lastUpdate).format('LLLL')}</Typography>
             <Typography variant="body2">Number of active cases of CoVID-19</Typography>
           </CardContent>
         </Grid>
@@ -46,7 +47,7 @@ const Cards = ({
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
+            <Typography color="textSecondary">As of: {moment(lastUpdate).format('LLLL')}</Typography>
             <Typography variant="body2">Number of recoveries from CoVID-19</Typography>
           </CardContent>
         </Grid>
@@ -61,7 +62,7 @@ const Cards = ({
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
+            <Typography color="textSecondary">As of: {moment(lastUpdate).format('LLLL')}</Typography>
             <Typography variant="body2">Number of deaths caused by CoVID-19</Typography>
           </CardContent>
         </Grid>
