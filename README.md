@@ -1,12 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) folling this [tutorial](https://youtu.be/khJlrj3Y6Ls).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) following this [tutorial](https://youtu.be/khJlrj3Y6Ls).
 
 # CoVID-19 Tracker
 
-## Details
-
 ## Demo Link
 
-* [Coming Soon]
+* [Check out the project](https://gseals.github.io/covid-19-tracker/)
 
 ## Technologies Used
 
@@ -27,22 +25,39 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-* This app tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country perspective. All data pulled from this [API](https://covid19.mathdro.id/api)
-
-## Application Features
-
-* Example
-
-### Users can
-
-### View
-* Example
+* This app tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this [API](https://covid19.mathdro.id/api) and last date/time of information gathered displayed in cards at the top of the page.
 
 ## Screenshots
 
-Main View
-![Main View](https://cdn.pixabay.com/photo/2017/08/04/05/37/coming-soon-2579123_960_720.jpg)
+Main View (50% to capture whole page)
+![Main View](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/MainView50Percent.png)
 
+Full Size Cards
+![Full Size Cards](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/FullSizeCards.png)
+
+Full Size Line Graph
+![Full Size Line Graph](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/FullSizeLineGraph.png)
+
+Line Graph - Deaths Only
+![Line Graph - Death Only](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/LineGraphDeathsOnly.png)
+
+Line Graph - Infected Only
+![Line Graph - Infected Only](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/LineGraphInfectedOnly.png)
+
+Responsive View
+![Responsive View](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/Responsive.png)
+
+Mobile View
+![Mobile View](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/Mobile.png)
+
+Dropdown (182 options, including global)
+![Dropdown](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/Dropdown.png)
+
+Cards Country (Australia)
+![Mobile View](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/CardsCountry.png)
+
+Bar Graph Country (Australia)
+![Mobile View](https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/BarGraphCountry.png)
 
 ## How to Run
 
