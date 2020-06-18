@@ -21,7 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [React-ChartJS-2 2.9.0](https://jerairrest.github.io/react-chartjs-2/)
 * [React CountUp 4.3.3](https://www.npmjs.com/package/react-countup)
 * [React Hooks](https://reactjs.org/docs/hooks-intro.html)
-* [ReactDOM 16.13.1](https://reactjs.org/docs/react-dom.html)
+* [ReactDOM 16.13.1](https://www.npmjs.com/package/react-dom)
 
 ## Description
 
