@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [JavaScript](https://www.javascript.com/)
 * [Material-UI 4.10.2](https://material-ui.com/)
 * [Moment.js 2.26.0](https://momentjs.com/)
-* [React.js 16.13.1](https://reactjs.org/docs/create-a-new-react-app.html)
+* [ReactJS 16.13.1](https://reactjs.org/docs/create-a-new-react-app.html)
 * [ReactDOM 16.13.1](https://www.npmjs.com/package/react-dom)
 * [React-ChartJS-2 2.9.0](https://jerairrest.github.io/react-chartjs-2/)
 * [React CountUp 4.3.3](https://www.npmjs.com/package/react-countup)
