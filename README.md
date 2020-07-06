@@ -2,9 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # CoVID-19 Tracker
 
+## Description
+
+* This app tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this [API](https://covid19.mathdro.id/api) and last date/time of information gathered displayed in cards at the top of the page.
+
 ## Demo Link
 
-* [Check out the project](https://gseals.github.io/covid-19-tracker/)
+* [Check out the Project](https://gseals.github.io/covid-19-tracker/)
 
 ## Technologies Used
 
@@ -22,10 +26,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [React-ChartJS-2 2.9.0](https://jerairrest.github.io/react-chartjs-2/)
 * [React CountUp 4.3.3](https://www.npmjs.com/package/react-countup)
 * [React Hooks](https://reactjs.org/docs/hooks-intro.html)
-
-## Description
-
-* This app tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this [API](https://covid19.mathdro.id/api) and last date/time of information gathered displayed in cards at the top of the page.
 
 ## Screenshots
 
