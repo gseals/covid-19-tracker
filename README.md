@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [ESLint 14.2.0](https://eslint.org/)
 * [HTML5](https://html.spec.whatwg.org/multipage/)
 * [JavaScript](https://www.javascript.com/)
-* [Material-UI 4.10.2](https://material-ui.com/)
+* [Material-UI Core 4.10.2](https://material-ui.com/)
 * [Moment.js 2.26.0](https://momentjs.com/)
 * [ReactDOM 16.13.1](https://www.npmjs.com/package/react-dom)
 * [ReactJS 16.13.1](https://reactjs.org/docs/create-a-new-react-app.html)
