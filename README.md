@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-* This app tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this [API](https://covid19.mathdro.id/api) and last date/time of information gathered displayed in cards at the top of the page.
+* This application tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this [API](https://covid19.mathdro.id/api) and last date/time of information gathered displayed in cards at the top of the page.
 
 ## Demo Link
 
